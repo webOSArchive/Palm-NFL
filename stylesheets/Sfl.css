@@ -1,0 +1,133 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+html, body {
+	background: #365D88;
+	color: white;
+}
+
+body.palm-default {
+	background: #365D88;
+	color: white;
+}
+
+div#main {
+	color: white;
+	padding:0;
+	margin:0;
+	vspace:0;
+}
+
+#header {
+	padding:0px;
+	color: white;
+	text-align: center;
+	background: #365D88 url('../images/header_grid_21x60.png') repeat-x;
+}
+
+#header_subTitle {
+	background:#365D88;
+	color: #000000;
+	padding: 1px 0 5px 0;
+}
+
+#header_image {
+	width: 116%;
+	background: none;
+	visibility: inherit;
+	left:-8%;
+}
+
+#tickerMessage {
+	position:fixed; 
+	bottom:50px; 
+	left:300px; 
+	width:0px; 
+	height:25px;
+	overflow:hidden;
+	color: white;
+}
+
+#tickerMessageContainer {
+	position: fixed;
+	bottom:50px;
+	left:0;
+	width: 100%;
+	height: 25px;
+	border-top: 1px solid #464646;
+	background: black;
+}
+
+
+#activity-spinner {
+/*	margin: 60px auto;*/
+	color: #464646;
+	right: 50%;
+	background: url('../images/loadinganim.png') no-repeat;
+	width: 100%;
+	z-index:99;
+}
+
+.spinner_sfl{
+	z-index:99;
+  	position: fixed;
+	left: 120px;
+	top: 10%;
+}
+
+.hombre_banner_info {
+	border: hidden;
+	border-color: black;
+}
+
+.hombre_game_banner {
+	border: hidden;
+	border-color: black;
+}
+
+//
+table.palm-list-section-label td.label {
+	color: white;
+}
+
+table.palm-list-section-label.collapsible td.line {
+	background: url('../images/override/list-section-collapse-left.png') no-repeat;
+}
+
+table.palm-list-section-label.collapsible .palm-arrow-expanded {
+	background: url('../images/override/list-section-arrow-both.png') center bottom;
+}
+
+table.palm-list-section-label.collapsible .palm-arrow-closed {
+	background: url('../images/override/list-section-arrow-both.png') center top;
+}
+
+table.palm-list-section-label td.right {
+	background: url('../images/override/list-section-line.png') no-repeat;
+	background-position-x: 0%;
+	background-position-y: 50%;
+}
+
+
+table.palm-list-section-label td.left {
+	background: url('../images/override/list-section-line.png') no-repeat;
+	background-position-x: 100%;
+	background-position-y: 50%;
+}
+
+.palm-menu.command-menu.palm-default .palm-menu-fade {
+	background-image: none;
+}
+
+.palm-menu-text .truncating-text {
+	text-overflow-x: clip; 
+	font-size: 12px;
+}
+
+.palm-menu-text div {
+	margin-left: -13px;
+	margin-right: -13px;
+} 
+

@@ -1,0 +1,12 @@
+{
+	"title": "Sprint Football Live",
+	"type": "web",
+	"main": "index.html",
+	"id": "com.palm.app.nfl",
+	"icon": "icon.png",
+	"splashicon": "icon-256x256.png",
+	"version": "1.35.0",
+	"vendor": "Hands-On Mobile",
+	"vendorurl": "http://www.handson.com" 
+}
+
